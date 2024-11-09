@@ -32,7 +32,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: nanajanashia/demo-app
-        registry: docker.io
+        registry: ghcr.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
          
